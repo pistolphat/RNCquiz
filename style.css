@@ -65,9 +65,10 @@ body {
 }
 
 .q1-choices {
-  border: 2px solid gray;
+  border: 3px solid lightgrey;
   margin: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .q1-choices > p:hover {
@@ -76,7 +77,7 @@ body {
 
 .q1-choices,
 p {
-  padding-top: 30px;
+  padding: 15px;
 }
 
 /* .q2-choices {
@@ -105,4 +106,27 @@ p {
 
 .q2-btn-group {
   margin: 10px;
+}
+
+.q3-btn-group .q3-button {
+  padding: 10px 24px; /* Some padding */
+  margin: 10px;
+  display: block; /* Make the buttons appear below each other */
+  line-height: 50px;
+}
+
+.q3-button:hover {
+  background-color: rgb(92, 144, 162);
+  color: white;
+}
+
+.red-vert-bars {
+  background-color: red;
+  width: 20px;
+  /* height: 103px; */
+}
+
+.prez-info {
+  width: 500px;
+  word-wrap: break-word;
 }
