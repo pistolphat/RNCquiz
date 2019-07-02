@@ -34,6 +34,13 @@ body {
   color: white;
 }
 
+.hd-sharing .hd-sharing-btn {
+  border: none;
+  float: left;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
 .fa-share {
   color: white;
   font-size: 10px;
@@ -52,4 +59,23 @@ body {
 
 .form-check {
   border: 2px solid grey;
+}
+
+.q1-choices {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid gray;
+  margin: 5px;
+  text-align: center;
+}
+
+.q1-choices > p:hover {
+  background-color: grey;
+}
+
+.q1-choices,
+p {
+  margin: 0;
+  padding-top: 30px;
 }
