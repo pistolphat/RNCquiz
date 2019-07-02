@@ -39,6 +39,8 @@ body {
   float: left;
   margin-bottom: 30px;
   text-align: left;
+  height: 35px;
+  width: 125px;
 }
 
 .fa-share {
@@ -57,25 +59,34 @@ body {
   height: 27px;
 }
 
-.form-check {
+/* .form-check {
   border: 2px solid grey;
+} */
+
+.q1 {
+  display: flex;
+  justify-content: left;
 }
 
 .q1-choices {
-  display: inline-block;
-  justify-content: space-between;
-  align-items: center;
   border: 2px solid gray;
-  margin: 5px;
+  margin: 10px;
   text-align: center;
 }
 
 .q1-choices > p:hover {
-  background-color: grey;
+  background-color: rgb(193, 193, 193);
 }
 
 .q1-choices,
 p {
-  margin: 0;
   padding-top: 30px;
+}
+
+.q2-choices {
+  display: flex;
+  justify-content: space-evenly;
+}
+.q2-button {
+  height: 50px;
 }
