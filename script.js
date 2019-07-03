@@ -1,6 +1,8 @@
-window.onload = function askName() {
-  const name = prompt('Welcome, please enter your name?');
-  if (name != null) {
-    document.getElementById('name').innerHTML = 'Welcome ' + name + '!';
-  }
-};
+// window.onload = function askName() {
+//   const name = prompt('Welcome, please enter your name?');
+//   if (name != null) {
+//     document.getElementById('name').innerHTML = 'Welcome ' + name + '!';
+//   } else {
+//     return null;
+//   }
+// };
