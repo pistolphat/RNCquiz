@@ -141,3 +141,15 @@ input:checked + label {
 button:focus {
   background-color: rgb(92, 144, 162);
 }
+
+.btn-submit {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+#results {
+  visibility: hidden;
+}

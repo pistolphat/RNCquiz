@@ -6,3 +6,7 @@
 //     return null;
 //   }
 // };
+
+function check() {
+  document.getElementById('results').style.visibility = 'visible';
+}
