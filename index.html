@@ -48,7 +48,7 @@
       <!-- Main Question Panel -->
       <div class="container">
         <!-- Prompt Name Section -->
-        <div><h3 id="name"></h3></div>
+        <h3 id="name"></h3>
         <div class="hd-sharing">
           <a href="#"
             ><button class="hd-sharing-btn fa-share">
@@ -164,7 +164,10 @@
           </div>
         </div>
         <!-- <div class ='btn-submit mt-3'><input class='btn-primary' type="button" value="Submit" onclick="check()"></div> -->
-        <input class= 'btn-submit btn-primary mt-5 container' id = 'button' type="button" value="Submit" onclick = "check();">
+        <div class="btn-submission m-3">
+          <a href="#results"><input class='btn-submit btn-primary m-2' id = 'button' type="button" value="Submit" onclick = "check();"></a>
+          <a href="#"><input class='btn-submit btn-danger' type="button" value="Reset" onclick = "resetPage();"></a>
+        </div>
       </form>  
 
         <!-- Results -->
@@ -182,7 +185,7 @@
 
            <!-- Footer -->
         <div class="mt-3">
-          <p style="font-size: 25px; color: gray; padding-left: 0">SHARE YOUR RESULTS</p>
+          <p class='mb-2' style="font-size: 25px; color: gray; padding-left: 0">SHARE YOUR RESULTS</p>
             <div class="hd-sharing">
               <a href="#">
               <button class="hd-sharing-btn fa-share">
@@ -198,7 +201,6 @@
         </div>
       </div>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="script.js"></script>
@@ -217,6 +219,5 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    
   </body>
 </html>

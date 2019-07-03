@@ -1,11 +1,15 @@
-// window.onload = function askName() {
-//   const name = prompt('Welcome, please enter your name?');
-//   if (name != null) {
-//     document.getElementById('name').innerHTML = 'Welcome ' + name + '!';
-//   } else {
-//     return null;
-//   }
-// };
+// On Load - immediately prompt for Name
+window.onload = function askName() {
+  const name = prompt('Welcome, please enter your name?');
+  if (name != null) {
+    document.getElementById('name').innerHTML = 'Welcome ' + name;
+  }
+};
+
+// Add method to reset after clicking Reset button
+function resetPage() {
+  location.reload(true);
+}
 
 // Storing President's Data as Object Notation
 let presidents = [
