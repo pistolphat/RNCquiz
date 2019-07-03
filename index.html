@@ -63,7 +63,7 @@
         </div>
 
         <!-- Question 1 section-->
-      <form id='quiz' name='quiz'>
+      <form action='' id='quiz' name='quiz'>
         <h5 style="clear:both">1. Choose a snack.</h5>
         <div class="q1">
           <div class="q1-choices">
@@ -103,29 +103,29 @@
         <div class="q2-questions mt-3">
           <div class="q2-btn-group">
             <div class="red-bars"></div>
-            <button type='submit' class="q2-button">Colorado</button>
+            <button type='button' class="q2-button">Colorado</button>
           </div>
           <div class="q2-btn-group">
             <div class="red-bars"></div>
-            <button type='submit'class="q2-button">California</button>
+            <button type='button'class="q2-button">California</button>
           </div>
           <div class="q2-btn-group">
             <div class="red-bars"></div>
-            <button type='submit'class="q2-button">Camp David</button>
+            <button type='button'class="q2-button">Camp David</button>
           </div>
           <div class="q2-btn-group">
             <div class="red-bars"></div>
-            <button type='submit' class="q2-button">Mississippi</button>
+            <button type='button' class="q2-button">Mississippi</button>
           </div>
         </div>
 
         <!-- Question 3 section -->
         <h5 class="mt-4">3. Choose an animal</h5>
           <div class="q3-btn-group mt-3" style="cursor: pointer">
-            <button class="q3-button container-fluid text-left">BEAR</button>
-            <button class="q3-button container-fluid text-left">BOBCAT</button>
-            <button class="q3-button container-fluid text-left">HORSE</button>
-            <button class="q3-button container-fluid text-left">DOG</button>
+            <button type='button' class="q3-button container-fluid text-left">BEAR</button>
+            <button type='button' class="q3-button container-fluid text-left">BOBCAT</button>
+            <button type='button' class="q3-button container-fluid text-left">HORSE</button>
+            <button type='button' class="q3-button container-fluid text-left">DOG</button>
           </div>
 
         <!-- Question 4 Section -->
@@ -170,9 +170,9 @@
         <div id="results" class="mt-3">
           <div class="prez-info float-left">
             <h4>Which Republican President Are You?</h4>
-            <h3 class="mt-3" style="font-family: Jubilat;" >
+            <h4 id='prez-name' class="mt-3" style="font-family: Jubilat;" >
               YOU GOT: TEDDY ROOSEVELT
-            </h3>
+            </h4>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem,
               aliquid iste? Nam nulla possimus in! Quibusdam dolore recusandae,
@@ -183,31 +183,25 @@
             </p>
           </div>
           <div class="result-border">
-            <img src="public/presidents/Teddy.jpg" alt="teddyrooselt" />
+            <img id ='prez-pic' src="public/presidents/Teddy.jpg" alt="teddyrooselt" />
           </div>
 
            <!-- Footer -->
         <div>
-            <p style="font-size: 25px; color: gray; padding-left: 0">
-                  SHARE YOUR RESULTS
-                </p>
-                <div class="hd-sharing">
-                  <a href="#"
-                    ><button class="hd-sharing-btn fa-share">
-                      <img src="public/facebook.png" alt="facebook" /> (100)
-                    </button>
-                  </a>
-                  <a href="#"
-                    ><button class="hd-sharing-btn tw-share">
-                      <img src="public/twitter.png" alt="twitter" /> (100)
-                    </button></a
-                  >
-                </div>
-              </div>
-        </div>
- 
+          <p style="font-size: 25px; color: gray; padding-left: 0">SHARE YOUR RESULTS</p>
+            <div class="hd-sharing">
+              <a href="#">
+              <button class="hd-sharing-btn fa-share">
+              <img src="public/facebook.png" alt="facebook" /> (100)
+              </button>
+              </a>
 
-       
+              <a href="#"><button class="hd-sharing-btn tw-share">
+              <img src="public/twitter.png" alt="twitter" /> (100)
+              </button></a>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
