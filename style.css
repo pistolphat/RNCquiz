@@ -77,15 +77,13 @@ p:hover {
   background-color: rgb(193, 193, 193);
 }
 
-.q1-choices,
-p {
+.q1-choices p {
   padding: 15px;
 }
 
-/* .q2-choices {
-  display: flex;
-  justify-content: space-evenly;
-} */
+p {
+  margin-bottom: 0;
+}
 
 .q2-button {
   height: 50px;
@@ -143,15 +141,12 @@ button:focus {
 }
 
 .btn-submit {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   font-size: 30px;
   border-radius: 10px;
 }
 
 #results {
-  visibility: hidden;
+  display: none;
 }
 
 #description {
@@ -160,5 +155,5 @@ button:focus {
 
 #prez-name {
   font-family: Jubilat;
-  font-size: 30px;
+  font-size: 25px;
 }

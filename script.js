@@ -7,19 +7,7 @@
 //   }
 // };
 
-// Array to Store
-// let presidentsName = [
-//   'Calvin Coolidge',
-//   'Gerald R. Ford',
-//   'Herbert Walker Bush',
-//   'Dwight D. "Ike" Eisenhower',
-//   'Abraham Lincoln',
-//   'Ronald Reagan',
-//   'Teddy Roosevelt',
-//   'George W. Bush'
-// ];
-
-// Object Notation to try out
+// Storing President's Data as Object Notation
 let presidents = [
   {
     name: 'Calvin Coolidge',
@@ -42,7 +30,7 @@ let presidents = [
   {
     name: 'Dwight D. "Ike" Eisenhower',
     description:
-      'Dwight David "Ike" Eisenhower was an American army general and statesman who served as the 34th president of the United States from 1953 to 1961. During World War II, he was a five-star general in the United States Army and served as supreme commander of the Allied Expeditionary Forces in Europe. ',
+      'Dwight David "Ike" Eisenhower was an American army general and statesman who served as the 34th president of the United States from 1953 to 1961. During World War II, he was a five-star general in the United States Army. ',
     src: 'public/presidents/ike.jpg'
   },
   {
@@ -74,8 +62,8 @@ let presidents = [
 // Added method Random() for Testing
 function check() {
   let randomX = Math.floor(Math.random() * 8);
-  // console.log(randomX);
-  document.getElementById('results').style.visibility = 'visible';
+  console.log(randomX);
+  document.getElementById('results').style.display = 'inline';
   document.getElementById('prez-name').innerHTML =
     'You are: ' + presidents[randomX].name;
   document.getElementById('description').innerHTML =
